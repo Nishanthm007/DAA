@@ -15,7 +15,7 @@ int par(int a[size],int l,int r)
             i++;
             count++;
         }
-
+        count++;
         while(pivot < a[j])
         {
             j--;
