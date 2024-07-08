@@ -8,7 +8,7 @@ void ss(int A[size],int n)
     for(i=0;i<=n-2;i++)
     {
         min = i;
-        for(j=i+1;j=n-1;j++)
+        for(j=i+1;j<=n-1;j++)
         {
             count++;
             if(A[j] < A[min])
