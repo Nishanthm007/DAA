@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1720496235 source:d:\1ga22cs112\floids\main.c
+	<stdio.h>
+	<stdlib.h>
+
