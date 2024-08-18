@@ -6,7 +6,7 @@ int par(int a[size],int l,int r)
 {
     int i,j,pivot,temp;
     pivot = a[l];
-    i=i+l;
+    i=l+1;
     j=r;
     while(1)
     {
