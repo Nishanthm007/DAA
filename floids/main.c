@@ -11,9 +11,9 @@ void floids(int a[10][10],int n)
 {
     int i,j,k;
     for(k=1;k<=n;k++)
-    for(i=1;i<=n;i++)
-        for(j=1;j<=n;j++)
-        a[i][j]=min(a[i][j],a[i][k]+a[k][j]);
+        for(i=1;i<=n;i++)
+            for(j=1;j<=n;j++)
+                a[i][j]=min(a[i][j],a[i][k]+a[k][j]);
 }
 int main()
 {
